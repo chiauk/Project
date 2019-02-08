@@ -1,0 +1,35 @@
+<xml>
+	<row><Col1 name='縣市'>宜蘭縣</Col1>
+	<Col2 name='學校'>宜蘭特殊教育學校</Col2>
+	<Col3 name='地址'>宜蘭縣五結鄉國民中路22之20號</Col3>
+	<Col4 name='電話'>(03)9509788</Col4>
+	<Col5 name='網址'>www.isse.ilc.edu.tw</Col5>
+	<Col6 name='傳真'>(03)9509868</Col6></row>
+	<row><Col1 name='縣市'>基隆市</Col1><Col2 name='學校'>基隆特殊教育學校</Col2><Col3 name='地址'>基隆市七堵區堵南街20號</Col3><Col4 name='電話'>(02)24526332</Col4><Col5 name='網址'>210.240.4.129</Col5><Col6 name='傳真'>(02)24526341</Col6></row>
+	<row><Col1 name='縣市'>臺北市</Col1><Col2 name='學校'>臺北市立啟聰學校</Col2><Col3 name='地址'>臺北市大同區重慶北路三段320號</Col3><Col4 name='電話'>(02)25924446</Col4><Col5 name='網址'>www.tmd.tp.edu.tw</Col5><Col6 name='傳真'>(02)25913451</Col6></row>
+	<row><Col1 name='縣市'>臺北市</Col1><Col2 name='學校'>臺北市立啟智學校</Col2><Col3 name='地址'>臺北市士林區忠誠路2段207巷3號</Col3><Col4 name='電話'>(02)28749117</Col4><Col5 name='網址'>www.tpmr.tp.edu.tw</Col5><Col6 name='傳真'>(02)28753079</Col6></row>
+	<row><Col1 name='縣市'>臺北市</Col1><Col2 name='學校'>臺北市立啟明學校</Col2><Col3 name='地址'>臺北市士林區忠誠路2段207巷1號</Col3><Col4 name='電話'>(02)28740670</Col4><Col5 name='網址'>www.tmsb.tp.edu.tw</Col5><Col6 name='傳真'>(02)28732612</Col6></row>
+	<row><Col1 name='縣市'>臺北市</Col1><Col2 name='學校'>文山特殊教育學校</Col2><Col3 name='地址'>臺北市文山區秀明路一段169號</Col3><Col4 name='電話'>(02)86615183</Col4><Col5 name='網址'>www.wsses.tp.edu.tw</Col5><Col6 name='傳真'>(02)22340164</Col6></row>
+	<row><Col1 name='縣市'>新北市</Col1><Col2 name='學校'>新北特殊教育學校</Col2><Col3 name='地址'>新北市林口區文化北路一段425號</Col3><Col4 name='電話'>(02)26006768</Col4><Col5 name='網址'>210.60.207.4</Col5><Col6 name='傳真'>(02)26006799</Col6></row>
+	<row><Col1 name='縣市'>桃園市</Col1><Col2 name='學校'>桃園啟智學校</Col2><Col3 name='地址'>桃園市桃園區德壽街十號</Col3><Col4 name='電話'>(03)3647099</Col4><Col5 name='網址'>www.tsad.tyc.edu.tw</Col5><Col6 name='傳真'>(03)3637715</Col6></row>
+	<row><Col1 name='縣市'>新竹縣</Col1><Col2 name='學校'>新竹特殊教育學校</Col2><Col3 name='地址'>新竹縣竹北市光明六路東二段201號</Col3><Col4 name='電話'>(03)6676639</Col4><Col5 name='網址'>http://www.nhs.hcc.edu.tw/</Col5><Col6 name='傳真'>(03)6676619</Col6></row>
+	<row><Col1 name='縣市'>苗栗縣</Col1><Col2 name='學校'>苗栗特殊教育學校</Col2><Col3 name='地址'>苗栗縣苗栗市嘉新里經國路4段825號</Col3><Col4 name='電話'>(037)266498</Col4><Col5 name='網址'>www.mlses.mlc.edu.tw</Col5><Col6 name='傳真'>(037)263046</Col6></row>
+	<row><Col1 name='縣市'>臺中市</Col1><Col2 name='學校'>臺中特殊教育學校</Col2><Col3 name='地址'>臺中市南屯區公益路二段296號</Col3><Col4 name='電話'>(04)22582289</Col4><Col5 name='網址'>www.tcspe.tc.edu.tw</Col5><Col6 name='傳真'>(04)22558672</Col6></row>
+	<row><Col1 name='縣市'>臺中市</Col1><Col2 name='學校'>臺中啟聰學校</Col2><Col3 name='地址'>臺中市西屯區協和里安和路一號</Col3><Col4 name='電話'>(04)23589577</Col4><Col5 name='網址'>www.thdf.tc.edu.tw</Col5><Col6 name='傳真'>(04)23584612</Col6></row>
+	<row><Col1 name='縣市'>臺中市</Col1><Col2 name='學校'>臺中啟明學校</Col2><Col3 name='地址'>臺中市后里區三豐路72號</Col3><Col4 name='電話'>(04)25562126</Col4><Col5 name='網址'>www.cmsb.tc.edu.tw</Col5><Col6 name='傳真'>(04)25578201</Col6></row>
+	<row><Col1 name='縣市'>臺中市</Col1><Col2 name='學校'>私立惠明盲校</Col2><Col3 name='地址'>臺中市大雅區雅潭路四段336號</Col3><Col4 name='電話'>(04)25661024</Col4><Col5 name='網址'>www.hmsh.tc.edu.tw</Col5><Col6 name='傳真'>(04)25661180</Col6></row>
+	<row><Col1 name='縣市'>南投縣</Col1><Col2 name='學校'>南投特殊教育學校</Col2><Col3 name='地址'>南投縣南投市仁德路200號</Col3><Col4 name='電話'>(049)2390773</Col4><Col5 name='網址'>www.ntss.ntct.edu.tw/</Col5><Col6 name='傳真'>(049)2392401</Col6></row>
+	<row><Col1 name='縣市'>彰化縣</Col1><Col2 name='學校'>和美實驗學校</Col2><Col3 name='地址'>彰化縣和美鎮鹿和路六段115號</Col3><Col4 name='電話'>(04)7552009</Col4><Col5 name='網址'>www.nhes.edu.tw</Col5><Col6 name='傳真'>(04)7569867</Col6></row>
+	<row><Col1 name='縣市'>彰化縣</Col1><Col2 name='學校'>彰化特殊教育學校</Col2><Col3 name='地址'>彰化縣社頭鄉中山路一段306號</Col3><Col4 name='電話'>(04)8727303</Col4><Col5 name='網址'>www.chsmr.chc.edu.tw</Col5><Col6 name='傳真'>(04)8728652</Col6></row>
+	<row><Col1 name='縣市'>雲林縣</Col1><Col2 name='學校'>雲林特殊教育學校</Col2><Col3 name='地址'>雲林縣斗南鎮新崙里新崙路100號</Col3><Col4 name='電話'>(05)5969241</Col4><Col5 name='網址'>www.nyses.ylc.edu.tw</Col5><Col6 name='傳真'>(05)5969330</Col6></row>
+	<row><Col1 name='縣市'>嘉義市</Col1><Col2 name='學校'>嘉義特殊教育學校</Col2><Col3 name='地址'>嘉義市西區世賢路二段一二三號</Col3><Col4 name='電話'>(05)2858549</Col4><Col5 name='網址'>www.cymrs.cy.edu.tw</Col5><Col6 name='傳真'>(05)2360373,2837138</Col6></row>
+	<row><Col1 name='縣市'>臺南市</Col1><Col2 name='學校'>臺南啟智學校</Col2><Col3 name='地址'>臺南市安南區長和路2段74號</Col3><Col4 name='電話'>(06)3554591</Col4><Col5 name='網址'>www.tnmr.tn.edu.tw</Col5><Col6 name='傳真'>(06)3567504</Col6></row>
+	<row><Col1 name='縣市'>臺南市</Col1><Col2 name='學校'>臺南大學附屬啟聰學校</Col2><Col3 name='地址'>臺南市新化區信義路52號</Col3><Col4 name='電話'>(06)5900504</Col4><Col5 name='網址'>www.tndsh.tnc.edu.tw</Col5><Col6 name='傳真'>(06)2250498.5908824</Col6></row>
+	<row><Col1 name='縣市'>高雄市</Col1><Col2 name='學校'>楠梓特殊學校</Col2><Col3 name='地址'>高雄市楠梓區德民路211號</Col3><Col4 name='電話'>(07)3642007轉112</Col4><Col5 name='網址'>www.nzsmr.kh.edu.tw</Col5><Col6 name='傳真'>(07)3642645</Col6></row>
+	<row><Col1 name='縣市'>高雄市</Col1><Col2 name='學校'>成功啟智學校</Col2><Col3 name='地址'>高雄市前鎮區復興三路三號</Col3><Col4 name='電話'>(07)3304624</Col4><Col5 name='網址'>www.ckmr.kh.edu.tw</Col5><Col6 name='傳真'>(07)3304685</Col6></row>
+	<row><Col1 name='縣市'>高雄市</Col1><Col2 name='學校'>高雄啟智學校</Col2><Col3 name='地址'>高雄市苓雅區憲政路二三三巷二號</Col3><Col4 name='電話'>(07)2235940</Col4><Col5 name='網址'>www.kmsmr.kh.edu.tw</Col5><Col6 name='傳真'>(07)2257071</Col6></row>
+	<row><Col1 name='縣市'>高雄市</Col1><Col2 name='學校'>仁武特殊教育學校</Col2><Col3 name='地址'>高雄市仁武區八卦村澄觀路一三八九號</Col3><Col4 name='電話'>(07)3749788</Col4><Col5 name='網址'>www.ses.ks.edu.tw</Col5><Col6 name='傳真'>(07)3745051</Col6></row>
+	<row><Col1 name='縣市'>屏東縣</Col1><Col2 name='學校'>屏東特殊教育學校</Col2><Col3 name='地址'>屏東縣潮州鎮光春路311號</Col3><Col4 name='電話'>(08)7805510</Col4><Col5 name='網址'>http://web.pses.ptc.edu.tw/default1.asp</Col5><Col6 name='傳真'>(08)7805518</Col6></row>
+	<row><Col1 name='縣市'>臺東縣</Col1><Col2 name='學校'>臺東大學附屬特教學校</Col2><Col3 name='地址'>臺東縣台東市中興路三段401巷170號</Col3><Col4 name='電話'>(089)229913</Col4><Col5 name='網址'>www.nttusps.nttu.edu.tw</Col5><Col6 name='傳真'>(089)226611</Col6></row>
+	<row><Col1 name='縣市'>花蓮縣</Col1><Col2 name='學校'>花蓮特殊教育學校</Col2><Col3 name='地址'>花蓮縣吉安鄉宜昌村中山路二段二號</Col3><Col4 name='電話'>(03)8544225</Col4><Col5 name='網址'>www.hlmrs.hlc.edu.tw</Col5><Col6 name='傳真'>(03)8541974</Col6></row>
+</xml>

@@ -1,0 +1,352 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-size: 100%;
+    margin:0 auto;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	width: 100%;
+	font-family: 微軟正黑體;
+	background-image: url("images/background.png");
+	background-repeat: repeat-x;
+}
+.header{
+	height: 260px;
+}
+.header img{
+	float: left;
+	height: 280px; 
+	margin-top: -20px;
+}
+.header_2{
+    height: 80px;
+    padding-right: 50px;
+    /*background-color: rgba(0,0,0,0.7);*/
+}
+.bar{
+	height: 120px;
+}
+.bar img{
+	float: right;
+	height: auto;
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.content{
+	height: 440px;
+}
+.box {
+  float: right;
+  height: 250px;
+  width: 250px;
+  margin: 0 15px 20px 0;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.box:hover .box-hover-text {
+  display: block;
+}
+.box .box-hover-text {
+  position: absolute;
+  display: none;
+  margin-top: 40px;
+  background-color: rgba(0,0,0, 0.5);
+}
+.box .box-hover-text img{
+	height: 150px;
+	width: 250px;
+}
+.content_2{
+    height: 550px;
+    text-align:center;
+}
+
+.list{
+	float: left;
+	margin-top: -1%; 
+	margin-left: 5%;
+	font-size: 25px;
+}
+.list li{
+	padding: 15px 60px;
+	border-bottom:#2f4f4f 2px dashed; 
+}
+.list li:hover {
+	background:#696969;
+                opacity:0.5;
+	color: white;
+}
+.list a {
+	color: #2f4f4f;
+	text-decoration:none;
+}
+.info{
+	float: left;
+	margin-left: 10%;
+	margin-top: -1%; 
+}
+.info tr:nth-child(odd){
+	border: #ABFFAB 2px solid; 
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+.info tr:nth-child(even){
+	border: none; 
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	background: #DEDEDE;
+}
+.info td{
+	padding: 10px;
+}
+.info td img{
+	padding-left: 20px;
+	width: 25px; 
+	height: 25px;
+}
+.hide{
+	display: none;
+}
+.collect{
+	float: left;
+	margin: 0 20%; 
+}
+.collect tr{
+	border: none; 
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	background: #DEDEDE;
+}
+.collect tr:last-child{
+	background: none;
+}
+.collect td{
+	float: left;
+	padding: 10px 10px 0 10px;
+}
+.collect td img{
+	padding-top:25px; 
+	padding-left: 15px;
+	width: 30px; 
+	height: 30px;
+}
+.collect input{
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+.collect td form input{
+	width: 60px;
+	height: 30px;
+}
+.col_inf{
+	float: left;
+	width: 150px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.col_cla{
+	float: left;
+	width: 130px;
+	font-size: 15px;
+	color: gray;
+}
+
+.logbutton{
+    width: 80px;
+    height: 30px;
+    color: silver;
+    font-size: 20px;
+    font-weight: bold; 
+    border:2px silver solid;
+    border-radius:10px;
+    text-align:center;
+    padding: 5px 0px;
+    margin: 25px 0px 0px 10px;
+
+}
+
+.logbutton:hover {
+    background-color: silver;
+    opacity:0.5;
+    color: black;
+    border:2px silver solid;
+
+}
+
+.logo{
+    color: silver;
+    font-size: 20px;
+}
+
+.login{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.send{
+    width: 300px;
+    height: 90px;
+    margin: 20px auto;
+}
+
+.sendbutton{
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius:5px;
+    text-align:center;
+    padding: 3px 0px;
+    border: none;
+    font-family: 微軟正黑體;
+
+}
+
+.askbox{
+    /*width: 280px;
+    height: 35px; */
+    padding: 5px;
+    border-radius:5px;
+   /* background-color: black;*/
+    text-shadow:1px 1px lightgrey;
+    color: gray;
+    font-size: 20px;
+    float: left;
+    margin-top: 50px;
+    /*opacity:0.5;
+    font-weight: bold;*/
+
+}
+
+.sendbutton:hover,.cancelbutton:hover,.button:hover{
+    position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+    top: 2px;
+
+}
+
+.input{
+    margin-top: 15px;
+    font-size:15px;
+    padding: 2px;
+    color: gray;
+    border-radius:7px;
+    width: 300px;
+    height: 30px;
+    font-family: 微軟正黑體;
+}
+.border_out input{
+	width: 30px;
+	height: 30px;
+}
+
+.title{
+    width: 80px;
+}
+
+.progress{
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-left:10%;
+	background-image: url("images/circle.png");
+	background-repeat: no-repeat;
+}
+.progress h1{
+	padding: 20% 0 0 13%;
+	font-size: 800%;
+	font-weight: bold;
+	color: white;
+}
+.us_info {
+	float: left;
+	width: 50%;
+	height: 100%;
+	margin-left:8%;
+	font-size: 30px;
+}
+.us_info img{
+	float: left;
+	width: 15%;
+	margin-right: 6%;
+}
+.us_info form{
+	margin-top: -8%;
+}
+.us_info input{
+	float: left;
+	width: 50%;
+	height: 40px;
+	border-radius: 5px;
+	font-family: 微軟正黑體;
+	font-size: 15px;
+}
+.sex{
+	float: left;
+	font-size: 30px;
+	margin: 1% 1% 0 1%;
+	width: 15%;
+}
+.info_det{
+	margin-bottom: 5%;
+}
+
+.fixlogout {
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  height: 50px;
+}

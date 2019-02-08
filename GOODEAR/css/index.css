@@ -1,0 +1,151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+	background-size: 100%;
+    margin:0 auto;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.wrap {
+    width: 100%;
+    font-family: 微軟正黑體;
+    /*font-weight: bold;*/
+    
+}
+
+.header{
+    height: 80px;
+    padding-right: 50px;
+    /*background-color: rgba(0,0,0,0.7);*/
+}
+
+.content{
+    height: 550px;
+    text-align:center;
+}
+
+.footer{
+
+}
+
+.logbutton{
+    width: 80px;
+    height: 30px;
+    color: silver;
+    font-size: 20px;
+    font-weight: bold; 
+    border:2px silver solid;
+    border-radius:10px;
+    text-align:center;
+    padding: 5px 0px;
+    margin: 25px 0px 0px 10px;
+
+}
+
+.logbutton:hover {
+    background-color: silver;
+    opacity:0.5;
+    color: black;
+    border:2px silver solid;
+
+}
+
+.logo{
+    color: silver;
+    font-size: 20px;
+}
+
+.login{
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+
+.send{
+    width: 300px;
+    height: 90px;
+    margin: 20px auto;
+}
+
+.sendbutton{
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius:5px;
+    text-align:center;
+    padding: 3px 0px;
+    border: none;
+    font-family: 微軟正黑體;
+
+}
+
+.askbox{
+    /*width: 280px;
+    height: 35px; */
+    padding: 5px;
+    border-radius:5px;
+   /* background-color: black;*/
+    text-shadow:1px 1px lightgrey;
+    color: gray;
+    font-size: 20px;
+    float: left;
+    margin-top: 50px;
+    /*opacity:0.5;
+    font-weight: bold;*/
+
+}
+
+.sendbutton:hover,.cancelbutton:hover,.button:hover{
+    position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+    top: 2px;
+
+}
+
+.input{
+    margin-top: 15px;
+    font-size:15px;
+    padding: 2px;
+    color: gray;
+    border-radius:7px;
+    width: 300px;
+    height: 30px;
+    font-family: 微軟正黑體;
+
+}
+
+
+.title{
+    width: 80px;
+}
+
+.footer2 {
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  height: 50px;
+}
+

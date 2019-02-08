@@ -1,0 +1,39 @@
+<!--學員登入--> 
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>GoodEaR登入</title>
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="Shortcut Icon" type="image/x-icon" href="img/GERlogo.png" />
+ </head>
+ <body style="background-image: url(img/login.jpg);">
+
+    <div class="wrap">
+        <div class="header">
+           <!--右上角登入註冊按鈕-->
+           <div class="logbutton" style="float: right;background-color: silver;opacity:0.5;color: black;border:2px silver solid;">登入</div>
+            <a href="register.html" ><div class="logbutton" style="float: right;">註冊</div></a>
+        </div>
+        <div class="content">
+            <div class="logo">
+                <a href="index.php"><img src="img/logo1.png"  width="600"/></a>
+                登入
+            </div>
+            <div class="login">
+               <form action="login.php" method="post">
+                            <!--onmouseover游標移到輸入框顯示#FF6600色，onFocus點選該輸入框時預設文字消失， onBlur為點選時則顯示-->
+	            <input class="input" type="text" name="id" value="帳號：ger1" onmouseover="this.style.borderColor='#FF6600'" onmouseout="this.style.borderColor=''" onFocus="if (value =='帳號：ger1'){value =''}" onBlur="if (value ==''){value='帳號：ger1'}"><br>
+	            <input class="input" type="password" name="pw" placeholder="密碼：ger1" onmouseover="this.style.borderColor='#FF6600'" onmouseout="this.style.borderColor=''" onFocus="if (placeholder =='密碼：ger1'){placeholder =''}" onBlur="if (placeholder ==''){placeholder='密碼：ger1'}"><br>
+  	            <div class="send">
+                <input type="submit" style="float: right;" value="登入" class="sendbutton">         
+            </div>    
+            </form>
+            </div>
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+ </body>
+ </html>

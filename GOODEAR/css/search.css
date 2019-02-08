@@ -1,0 +1,329 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a{
+	text-decoration: none;
+}
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background-color: white;
+	font-family: '微軟正黑體';
+}
+
+input,button,select,textarea{outline:none}
+ *:focus { outline: none; }
+.clear{
+	clear:both;
+}
+.wrapper{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+}
+.header{
+	width: 515px;
+	height: 187px;
+	margin: auto;
+}
+.header img{
+	width: 515px;
+	height: 167px;
+}
+.content{
+	width: 100%;
+}
+.content a:visited {
+	color:white;
+}
+.bone{
+	width: 150px;
+	height: 50px;
+	background-color: #ABFFAB;
+	border-top-left-radius: 5px;
+	float: left;
+}
+.bone img{
+	width: 130px;
+	margin: 5px 10px;
+}
+.grave{
+	width: 150px;
+	height: 50px;
+	background-color: #E3E3E3;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	float: left;
+}
+.grave img{
+	width: 130px;
+	margin: 5px 10px;
+}
+
+.grave:hover{
+	background-color: #CFCFCF;
+}
+.main-content{
+	width: calc(100% - 40px);
+	height: auto;
+	padding: 20px;
+	background-color: #ABFFAB;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 20px;
+	box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.select-options{
+	width: auto;
+	margin-bottom: 20px;
+	float: right;
+}
+.select-options img{
+	float: left;
+	height: 50px;
+	margin-top: 8.5px;
+	margin-right: 2px;
+}
+#eye{
+	float: left;
+	margin-top: 10.5px;
+	margin-right: 5px;
+}
+#heart{
+	float: left;
+	margin-top: 11px;
+	margin-right: 5px;
+}
+#destrict{
+	width: 80px;
+	height: 41px;
+	border: 0.5px solid #BEBEBE;
+	font-family: '微軟正黑體';
+	font-size: 16px;
+	margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 10px;
+	float: left;
+}
+#religion{
+	width: 90px;
+	height: 41px;
+	border: 0.5px solid #BEBEBE;
+	font-family: '微軟正黑體';
+	font-size: 16px;
+	margin-right: 10px;
+	float: left;
+}
+.address{
+	float: left;
+}
+#get-place-destrict{
+	width: 60px;
+	height: 41px;
+	border: 0.5px solid #BEBEBE;
+	font-family: '微軟正黑體';
+	font-size: 16px;
+	margin-right: 5px;
+	float: left;
+}
+#get-place-religion{
+	width: 90px;
+	height: 41px;
+	border: 0.5px solid #BEBEBE;
+	font-family: '微軟正黑體';
+	font-size: 16px;
+	margin-right: 5px;
+	float: left;
+}
+#get-place-address{
+	width: 300px;
+	height: 41px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 0.5px solid #BEBEBE;
+	font-family: '微軟正黑體';
+	font-size: 16px;
+	float: left;
+}
+.address input[type='image']{
+	width: 41px;
+	height: 39px;
+	border: 0.5px solid #BEBEBE;
+	background-color: #BEBEBE;
+	float: left;
+}
+.address input[type='image']:hover{
+	background-color: #ADADAD;
+}
+#map{
+	width: 100%;
+	height: 530px;
+}
+footer{
+	text-align: center;
+	color: #4F4F4F;
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 1080px) {
+.wrapper{
+	width: 96%;
+	padding: 2%;
+}
+}
+@media only screen and (max-width: 980px) {
+.select-options{
+	width: 100%;
+	float: none;
+	margin-bottom: 10px;
+}
+#eye{
+	float: left;
+	margin-top: 10.5px;
+	margin-right: 5px;
+}
+#heart{
+	float: left;
+	margin-top: 11px;
+	margin-right: 5px;
+}
+#destrict{
+	width: calc(50% - 47px);
+	height: 41px;
+	margin-right: 5px;
+	float: left;
+}
+#religion{
+	width: calc(50% - 47px);
+	height: 41px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	float: left;
+}
+.address{
+	width: 100%;
+	margin-right: 0px;
+	float: none;
+}
+#get-place-destrict{
+	width: calc(14% - 25.9px);
+	height: 41px;
+	margin-right: 5px;
+	float: left;
+}
+#get-place-religion{
+	width: calc(21% - 38.85px);
+	height: 41px;
+	margin-right: 5px;
+	float: left;
+}
+#get-place-address{
+	width: calc(65% - 120.25px);
+	height: 41px;
+	float: left;
+}
+}
+@media only screen and (max-width: 690px) {
+	#get-place-destrict{
+		width: calc(50% - 68.5px);
+		height: 41px;
+		margin-right: 5px;
+		float: left;
+	}
+	#get-place-religion{
+		width: calc(50% - 68.5px);
+		height: 41px;
+		margin-right: 0;
+		margin-bottom: 5px;
+		float: left;
+	}
+	#get-place-address{
+		width: calc(100% - 43px);
+		height: 41px;
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.header{
+		width: 100%;
+		height: auto;
+	}
+	.header h1{
+		display: none;
+	}
+	.header img{
+		display: block;
+		max-width: 100%;
+	}
+}
+
+
+.fixlogout {
+	position: fixed;
+	bottom: 70px;
+	right: 0;
+	height: 50px;
+}
+
+.back{
+    margin-right: 15px;
+    position: fixed;
+    top: 30px;
+    right: 0;
+
+}
+.grants_info{
+	background: white; 
+	padding: 3% 8%;
+	height: 500px;
+	overflow: scroll;
+}
+.grants_info td{
+	text-align: center;
+	padding: 2% 3%;
+	margin-right: 10px;
+}
+.grants_info a{
+	color: 	#969696;
+	font-weight: bold;
+}
+.grants_info a:visited{
+	color: 	#969696;
+}
+.grants_info a:hover{
+	color: 	#BFBFBF;
+}
+.grants_info_title td{
+	padding: 10px;
+	border-bottom: 3px solid #e3e3e3;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.button:hover{
+    position: relative; /* 當滑鼠經過超連結時，超連結往右下位移1像素 */
+    top: 2px;
+
+}
